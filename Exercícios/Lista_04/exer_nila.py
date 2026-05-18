@@ -1,4 +1,4 @@
-# Configuração de decimal importar Decimal e getcontext para forçar o Python a 21 casas decimais pq o terminal tem preguiça de mostrar mais do que isso, por isso getcontext().prec = 22
+# Configuração de decimal importar Decimal e getcontext para forçar o Python a 22 casas decimais pq o terminal tem preguiça de mostrar mais do que isso, por isso getcontext().prec = 22
 from decimal import Decimal, getcontext
 getcontext().prec = 22
 
@@ -20,4 +20,4 @@ while True:
     if pi == Decimal('3.14159265358979323846'):
         break
 
-print (f"Para conseguir o valor de pi = {pi:.20f} foram necessárias {iteracoes} iterações confirmando a operação correta do código")
+print (f"Para conseguir o valor de pi = {pi:.20f} foram necessárias {iteracoes} iterações confirmando a operação correta do código a chegar em 20 casas decimais para o valor de pi")
