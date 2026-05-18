@@ -1,4 +1,4 @@
-# Configuração de decimal importar Decimal e getcontext para forçar o Python a 21 casas decimais pq o terminal tem preguiça de mostrar mais do que isso, por isso getcontext().prec = 21
+# Configuração de decimal importar Decimal e getcontext para forçar o Python a 21 casas decimais pq o terminal tem preguiça de mostrar mais do que isso, por isso getcontext().prec = 22
 from decimal import Decimal, getcontext
 getcontext().prec = 22
 
